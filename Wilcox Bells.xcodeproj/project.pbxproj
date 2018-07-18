@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0304CFBF20FEDF4E007F5FDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0304CFBE20FEDF4E007F5FDD /* AppDelegate.swift */; };
+		0304CFC120FEDF4E007F5FDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0304CFC020FEDF4E007F5FDD /* ViewController.swift */; };
+		0304CFC420FEDF4E007F5FDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0304CFC220FEDF4E007F5FDD /* Main.storyboard */; };
+		0304CFC620FEDF50007F5FDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0304CFC520FEDF50007F5FDD /* Assets.xcassets */; };
+		0304CFC920FEDF50007F5FDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0304CFC720FEDF50007F5FDD /* LaunchScreen.storyboard */; };
+		0304CFD420FEDF50007F5FDD /* Wilcox_BellsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0304CFD320FEDF50007F5FDD /* Wilcox_BellsTests.swift */; };
+		0304CFDF20FEDF50007F5FDD /* Wilcox_BellsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0304CFDE20FEDF50007F5FDD /* Wilcox_BellsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0304CFD020FEDF50007F5FDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0304CFB320FEDF4D007F5FDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0304CFBA20FEDF4D007F5FDD;
+			remoteInfo = "Wilcox Bells";
+		};
+		0304CFDB20FEDF50007F5FDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0304CFB320FEDF4D007F5FDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0304CFBA20FEDF4D007F5FDD;
+			remoteInfo = "Wilcox Bells";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0304CFBB20FEDF4D007F5FDD /* Wilcox Bells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wilcox Bells.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0304CFBE20FEDF4E007F5FDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0304CFC020FEDF4E007F5FDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0304CFC320FEDF4E007F5FDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0304CFC520FEDF50007F5FDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0304CFC820FEDF50007F5FDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0304CFCA20FEDF50007F5FDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0304CFCF20FEDF50007F5FDD /* Wilcox BellsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wilcox BellsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0304CFD320FEDF50007F5FDD /* Wilcox_BellsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wilcox_BellsTests.swift; sourceTree = "<group>"; };
+		0304CFD520FEDF50007F5FDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0304CFDA20FEDF50007F5FDD /* Wilcox BellsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wilcox BellsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0304CFDE20FEDF50007F5FDD /* Wilcox_BellsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wilcox_BellsUITests.swift; sourceTree = "<group>"; };
+		0304CFE020FEDF50007F5FDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0304CFB820FEDF4D007F5FDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0304CFCC20FEDF50007F5FDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0304CFD720FEDF50007F5FDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0304CFB220FEDF4D007F5FDD = {
+			isa = PBXGroup;
+			children = (
+				0304CFBD20FEDF4D007F5FDD /* Wilcox Bells */,
+				0304CFD220FEDF50007F5FDD /* Wilcox BellsTests */,
+				0304CFDD20FEDF50007F5FDD /* Wilcox BellsUITests */,
+				0304CFBC20FEDF4D007F5FDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0304CFBC20FEDF4D007F5FDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0304CFBB20FEDF4D007F5FDD /* Wilcox Bells.app */,
+				0304CFCF20FEDF50007F5FDD /* Wilcox BellsTests.xctest */,
+				0304CFDA20FEDF50007F5FDD /* Wilcox BellsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0304CFBD20FEDF4D007F5FDD /* Wilcox Bells */ = {
+			isa = PBXGroup;
+			children = (
+				0304CFBE20FEDF4E007F5FDD /* AppDelegate.swift */,
+				0304CFC020FEDF4E007F5FDD /* ViewController.swift */,
+				0304CFC220FEDF4E007F5FDD /* Main.storyboard */,
+				0304CFC520FEDF50007F5FDD /* Assets.xcassets */,
+				0304CFC720FEDF50007F5FDD /* LaunchScreen.storyboard */,
+				0304CFCA20FEDF50007F5FDD /* Info.plist */,
+			);
+			path = "Wilcox Bells";
+			sourceTree = "<group>";
+		};
+		0304CFD220FEDF50007F5FDD /* Wilcox BellsTests */ = {
+			isa = PBXGroup;
+			children = (
+				0304CFD320FEDF50007F5FDD /* Wilcox_BellsTests.swift */,
+				0304CFD520FEDF50007F5FDD /* Info.plist */,
+			);
+			path = "Wilcox BellsTests";
+			sourceTree = "<group>";
+		};
+		0304CFDD20FEDF50007F5FDD /* Wilcox BellsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0304CFDE20FEDF50007F5FDD /* Wilcox_BellsUITests.swift */,
+				0304CFE020FEDF50007F5FDD /* Info.plist */,
+			);
+			path = "Wilcox BellsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0304CFBA20FEDF4D007F5FDD /* Wilcox Bells */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0304CFE320FEDF50007F5FDD /* Build configuration list for PBXNativeTarget "Wilcox Bells" */;
+			buildPhases = (
+				0304CFB720FEDF4D007F5FDD /* Sources */,
+				0304CFB820FEDF4D007F5FDD /* Frameworks */,
+				0304CFB920FEDF4D007F5FDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wilcox Bells";
+			productName = "Wilcox Bells";
+			productReference = 0304CFBB20FEDF4D007F5FDD /* Wilcox Bells.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0304CFCE20FEDF50007F5FDD /* Wilcox BellsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0304CFE620FEDF50007F5FDD /* Build configuration list for PBXNativeTarget "Wilcox BellsTests" */;
+			buildPhases = (
+				0304CFCB20FEDF50007F5FDD /* Sources */,
+				0304CFCC20FEDF50007F5FDD /* Frameworks */,
+				0304CFCD20FEDF50007F5FDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0304CFD120FEDF50007F5FDD /* PBXTargetDependency */,
+			);
+			name = "Wilcox BellsTests";
+			productName = "Wilcox BellsTests";
+			productReference = 0304CFCF20FEDF50007F5FDD /* Wilcox BellsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0304CFD920FEDF50007F5FDD /* Wilcox BellsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0304CFE920FEDF50007F5FDD /* Build configuration list for PBXNativeTarget "Wilcox BellsUITests" */;
+			buildPhases = (
+				0304CFD620FEDF50007F5FDD /* Sources */,
+				0304CFD720FEDF50007F5FDD /* Frameworks */,
+				0304CFD820FEDF50007F5FDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0304CFDC20FEDF50007F5FDD /* PBXTargetDependency */,
+			);
+			name = "Wilcox BellsUITests";
+			productName = "Wilcox BellsUITests";
+			productReference = 0304CFDA20FEDF50007F5FDD /* Wilcox BellsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0304CFB320FEDF4D007F5FDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Wilcox High School";
+				TargetAttributes = {
+					0304CFBA20FEDF4D007F5FDD = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					0304CFCE20FEDF50007F5FDD = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 0304CFBA20FEDF4D007F5FDD;
+					};
+					0304CFD920FEDF50007F5FDD = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 0304CFBA20FEDF4D007F5FDD;
+					};
+				};
+			};
+			buildConfigurationList = 0304CFB620FEDF4D007F5FDD /* Build configuration list for PBXProject "Wilcox Bells" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0304CFB220FEDF4D007F5FDD;
+			productRefGroup = 0304CFBC20FEDF4D007F5FDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0304CFBA20FEDF4D007F5FDD /* Wilcox Bells */,
+				0304CFCE20FEDF50007F5FDD /* Wilcox BellsTests */,
+				0304CFD920FEDF50007F5FDD /* Wilcox BellsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0304CFB920FEDF4D007F5FDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0304CFC920FEDF50007F5FDD /* LaunchScreen.storyboard in Resources */,
+				0304CFC620FEDF50007F5FDD /* Assets.xcassets in Resources */,
+				0304CFC420FEDF4E007F5FDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0304CFCD20FEDF50007F5FDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0304CFD820FEDF50007F5FDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0304CFB720FEDF4D007F5FDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0304CFC120FEDF4E007F5FDD /* ViewController.swift in Sources */,
+				0304CFBF20FEDF4E007F5FDD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0304CFCB20FEDF50007F5FDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0304CFD420FEDF50007F5FDD /* Wilcox_BellsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0304CFD620FEDF50007F5FDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0304CFDF20FEDF50007F5FDD /* Wilcox_BellsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0304CFD120FEDF50007F5FDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0304CFBA20FEDF4D007F5FDD /* Wilcox Bells */;
+			targetProxy = 0304CFD020FEDF50007F5FDD /* PBXContainerItemProxy */;
+		};
+		0304CFDC20FEDF50007F5FDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0304CFBA20FEDF4D007F5FDD /* Wilcox Bells */;
+			targetProxy = 0304CFDB20FEDF50007F5FDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0304CFC220FEDF4E007F5FDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0304CFC320FEDF4E007F5FDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0304CFC720FEDF50007F5FDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0304CFC820FEDF50007F5FDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0304CFE120FEDF50007F5FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0304CFE220FEDF50007F5FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0304CFE420FEDF50007F5FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Wilcox Bells/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Claire-Dong.Wilcox-Bells";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0304CFE520FEDF50007F5FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Wilcox Bells/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Claire-Dong.Wilcox-Bells";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0304CFE720FEDF50007F5FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Wilcox BellsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Claire-Dong.Wilcox-BellsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wilcox Bells.app/Wilcox Bells";
+			};
+			name = Debug;
+		};
+		0304CFE820FEDF50007F5FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Wilcox BellsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Claire-Dong.Wilcox-BellsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wilcox Bells.app/Wilcox Bells";
+			};
+			name = Release;
+		};
+		0304CFEA20FEDF50007F5FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Wilcox BellsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Claire-Dong.Wilcox-BellsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Wilcox Bells";
+			};
+			name = Debug;
+		};
+		0304CFEB20FEDF50007F5FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Wilcox BellsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Claire-Dong.Wilcox-BellsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Wilcox Bells";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0304CFB620FEDF4D007F5FDD /* Build configuration list for PBXProject "Wilcox Bells" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0304CFE120FEDF50007F5FDD /* Debug */,
+				0304CFE220FEDF50007F5FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0304CFE320FEDF50007F5FDD /* Build configuration list for PBXNativeTarget "Wilcox Bells" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0304CFE420FEDF50007F5FDD /* Debug */,
+				0304CFE520FEDF50007F5FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0304CFE620FEDF50007F5FDD /* Build configuration list for PBXNativeTarget "Wilcox BellsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0304CFE720FEDF50007F5FDD /* Debug */,
+				0304CFE820FEDF50007F5FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0304CFE920FEDF50007F5FDD /* Build configuration list for PBXNativeTarget "Wilcox BellsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0304CFEA20FEDF50007F5FDD /* Debug */,
+				0304CFEB20FEDF50007F5FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0304CFB320FEDF4D007F5FDD /* Project object */;
+}
