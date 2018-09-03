@@ -14,6 +14,12 @@
 		0304CFC920FEDF50007F5FDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0304CFC720FEDF50007F5FDD /* LaunchScreen.storyboard */; };
 		0304CFD420FEDF50007F5FDD /* Wilcox_BellsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0304CFD320FEDF50007F5FDD /* Wilcox_BellsTests.swift */; };
 		0304CFDF20FEDF50007F5FDD /* Wilcox_BellsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0304CFDE20FEDF50007F5FDD /* Wilcox_BellsUITests.swift */; };
+		03466E22213A4F75002C2230 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03466E20213A4F75002C2230 /* CustomCell.swift */; };
+		03466E23213A4F75002C2230 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03466E21213A4F75002C2230 /* CustomCell.xib */; };
+		03E9F204213874D600568ADF /* Mon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E9F202213874D600568ADF /* Mon.swift */; };
+		03E9F205213874D600568ADF /* Mon.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03E9F203213874D600568ADF /* Mon.xib */; };
+		03E9F2082138791300568ADF /* Tues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E9F2062138791300568ADF /* Tues.swift */; };
+		03E9F2092138791300568ADF /* Tues.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03E9F2072138791300568ADF /* Tues.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		0304CFDA20FEDF50007F5FDD /* Wilcox BellsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wilcox BellsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0304CFDE20FEDF50007F5FDD /* Wilcox_BellsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wilcox_BellsUITests.swift; sourceTree = "<group>"; };
 		0304CFE020FEDF50007F5FDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03466E20213A4F75002C2230 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		03466E21213A4F75002C2230 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		03E9F202213874D600568ADF /* Mon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mon.swift; sourceTree = "<group>"; };
+		03E9F203213874D600568ADF /* Mon.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Mon.xib; sourceTree = "<group>"; };
+		03E9F2062138791300568ADF /* Tues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tues.swift; sourceTree = "<group>"; };
+		03E9F2072138791300568ADF /* Tues.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Tues.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +109,8 @@
 		0304CFBD20FEDF4D007F5FDD /* Wilcox Bells */ = {
 			isa = PBXGroup;
 			children = (
+				03466E1F213A4F53002C2230 /* Cell */,
+				03E9F1FD213873FE00568ADF /* Daily Schedules */,
 				0304CFBE20FEDF4E007F5FDD /* AppDelegate.swift */,
 				0304CFC020FEDF4E007F5FDD /* ViewController.swift */,
 				0304CFC220FEDF4E007F5FDD /* Main.storyboard */,
@@ -123,6 +137,26 @@
 				0304CFE020FEDF50007F5FDD /* Info.plist */,
 			);
 			path = "Wilcox BellsUITests";
+			sourceTree = "<group>";
+		};
+		03466E1F213A4F53002C2230 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				03466E20213A4F75002C2230 /* CustomCell.swift */,
+				03466E21213A4F75002C2230 /* CustomCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		03E9F1FD213873FE00568ADF /* Daily Schedules */ = {
+			isa = PBXGroup;
+			children = (
+				03E9F202213874D600568ADF /* Mon.swift */,
+				03E9F2062138791300568ADF /* Tues.swift */,
+				03E9F2072138791300568ADF /* Tues.xib */,
+				03E9F203213874D600568ADF /* Mon.xib */,
+			);
+			path = "Daily Schedules";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,7 +238,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0304CFB620FEDF4D007F5FDD /* Build configuration list for PBXProject "Wilcox Bells" */;
+			buildConfigurationList = 0304CFB620FEDF4D007F5FDD /* Build configuration list for PBXProject "WilcoxBells" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -229,8 +263,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03466E23213A4F75002C2230 /* CustomCell.xib in Resources */,
 				0304CFC920FEDF50007F5FDD /* LaunchScreen.storyboard in Resources */,
+				03E9F2092138791300568ADF /* Tues.xib in Resources */,
 				0304CFC620FEDF50007F5FDD /* Assets.xcassets in Resources */,
+				03E9F205213874D600568ADF /* Mon.xib in Resources */,
 				0304CFC420FEDF4E007F5FDD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,7 +293,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03E9F204213874D600568ADF /* Mon.swift in Sources */,
 				0304CFC120FEDF4E007F5FDD /* ViewController.swift in Sources */,
+				03466E22213A4F75002C2230 /* CustomCell.swift in Sources */,
+				03E9F2082138791300568ADF /* Tues.swift in Sources */,
 				0304CFBF20FEDF4E007F5FDD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +471,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7X3XVAUCSJ;
 				INFOPLIST_FILE = "Wilcox Bells/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,6 +489,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7X3XVAUCSJ;
 				INFOPLIST_FILE = "Wilcox Bells/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -505,6 +547,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7X3XVAUCSJ;
 				INFOPLIST_FILE = "Wilcox BellsUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -524,6 +567,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7X3XVAUCSJ;
 				INFOPLIST_FILE = "Wilcox BellsUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -541,7 +585,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0304CFB620FEDF4D007F5FDD /* Build configuration list for PBXProject "Wilcox Bells" */ = {
+		0304CFB620FEDF4D007F5FDD /* Build configuration list for PBXProject "WilcoxBells" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0304CFE120FEDF50007F5FDD /* Debug */,
