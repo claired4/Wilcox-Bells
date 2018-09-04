@@ -185,7 +185,7 @@
                                     <action selector="switchDay:" destination="qhV-xc-bvF" eventType="valueChanged" id="C4S-te-GaH"/>
                                 </connections>
                             </segmentedControl>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="v0s-zb-AwR">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="v0s-zb-AwR" userLabel="tableview">
                                 <rect key="frame" x="16" y="399" width="343" height="299"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -204,11 +204,6 @@
                                     <outlet property="delegate" destination="qhV-xc-bvF" id="5vL-u9-8DW"/>
                                 </connections>
                             </tableView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vmG-WQ-YOK">
-                                <rect key="frame" x="67" y="193" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="4bS-OI-VFX"/>
@@ -216,8 +211,7 @@
                     <navigationItem key="navigationItem" title="Daily Schedules" id="DCB-Hl-5f3"/>
                     <connections>
                         <outlet property="switchDay" destination="MiH-Vx-CFu" id="cWu-iy-eEz"/>
-                        <outlet property="tableView" destination="v0s-zb-AwR" id="jI1-6z-GEG"/>
-                        <outlet property="view" destination="vmG-WQ-YOK" id="6i6-hT-aBQ"/>
+                        <outlet property="tableview" destination="v0s-zb-AwR" id="JYc-UO-Hfn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qHM-wr-Nlz" userLabel="First Responder" sceneMemberID="firstResponder"/>

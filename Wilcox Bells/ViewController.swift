@@ -2,16 +2,17 @@
 //  Wilcox Bells
 //
 //  Created by Claire Dong on 7/17/18.
-//  Copyright © 2018 Wilcox High School. All rights reserved.
+//  Copyright ©o 2018 Wilcox High School. All rights reserved.
 
 import UIKit
 import UserNotifications
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
+    @IBOutlet weak var tableview: UITableView!
     //@IBOutlet weak var tableView: UITableView!
-    @IBOutlet weak var viewForTable: UIView!
-    var tableview: UITableView!
+    //@IBOutlet weak var viewForTable: UIView!
+    //var tableview: UITableView!
     
     @IBAction func switchDay(_ sender: UISegmentedControl) {
         p = sender.selectedSegmentIndex
@@ -33,33 +34,35 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBOutlet weak var morning: UILabel!
     @IBOutlet weak var weekend: UILabel!
     
-   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    
+    func tableView(_ tV: UITableView, numberOfRowsInSection section: Int) -> Int {
          return sched[p].count
     }
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "CustomCell") as! CustomCell
+    func tableView(_ tV: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tV.dequeueReusableCell(withIdentifier: "customCell") as! CustomCell
         let str = sched[p][indexPath.row].components(separatedBy: " ")
         cell.customInit(period: str[0], time: str[1])
         return cell
     }
     
     override func viewDidLoad() {
-        print(viewForTable)
-        tableview = UITableView(frame: viewForTable.frame)
-        viewForTable.addSubview(tableview)
+        //print(viewForTable)
+        //tableview = UITableView(frame: viewForTable.frame)
+        //viewForTable.addSubview(tableview)
         
         //print(tableView)
-        //tableView = UITableView()
-        tableview.dataSource = self
-        tableview.delegate = self
+        //tableview = UITableView()
+        p = 0
+
+        //tableview.dataSource = self
+        //tableview.delegate = self
     
         UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound], completionHandler: {didAllow, error in})
         super.viewDidLoad()
         
         let nib = UINib(nibName: "CustomCell", bundle: nil)
-        tableview.register(nib, forCellReuseIdentifier: "CustomCell")
+        tableview.register(nib, forCellReuseIdentifier: "customCell")
         
-        p = 0
         
         message.isHidden = true;
         minLeft.isHidden = true;
